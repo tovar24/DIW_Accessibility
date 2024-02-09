@@ -1,0 +1,9 @@
+# ignorar imagenes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+
+#ignorar node_modules
+node_modules
