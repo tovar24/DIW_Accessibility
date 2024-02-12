@@ -125,6 +125,10 @@ a:focus {
   border-color: var(--color-blanco);
 }
 
+a:focus-visible {
+  border-color: var(--color-blanco);
+}
+
 .btn {
   font-size: 0.75rem;
   border-radius: 50px;
