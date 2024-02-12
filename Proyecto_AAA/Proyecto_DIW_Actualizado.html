@@ -267,6 +267,7 @@
           <form action="#" method="post">
             <input
               type="text"
+              aria-label="name"
               name="nombre"
               id="nombre"
               placeholder="Your Name"
@@ -274,6 +275,7 @@
             <input
               type="email"
               name="correo"
+              aria-label="email"
               id="correo"
               pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
               placeholder="Email Address *"
@@ -281,11 +283,13 @@
             <input
               type="text"
               name="asunto"
+              aria-label="subject"
               id="asunto"
               placeholder="Subject"
             />
             <textarea
               name="mensaje"
+              aria-label="message text"
               id="mensaje"
               rows="6"
               placeholder="Your Message"
@@ -351,21 +355,22 @@
           Videos
         </h2>
         <div style="padding-left: 40%;">
-          <audio src="res/audio/Mezcla_3_songs.mp3" controls></audio>
+          <audio title="Audio mezclado" src="res/audio/Mezcla_3_songs.mp3" controls></audio>
         </div>
-        <div style="padding-left: 30%;">
-          <video src="res/video/video.mp4" width="560" height="315" controls></video>
+        <div style="display: flex; justify-content: center;">
+          <video title="Video web" src="res/video/video.mp4" width="560" height="315" controls></video>
         </div>
-        <iframe
-          style="margin-left: 30%"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/47YzXAM1q1I?si=uGou1NQYQTzSDMkz"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div style="display: flex; justify-content: center;">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/47YzXAM1q1I?si=uGou1NQYQTzSDMkz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
     </main>
 
