@@ -617,6 +617,11 @@ textarea {
   background-color: var(--color-blanco);
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
 footer {
   height: 86px;
   padding: 70px 0;
