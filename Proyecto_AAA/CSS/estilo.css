@@ -2,7 +2,8 @@
   --azul-oscuro: #18191d;
   --variant-gris: #d1d0d1;
   --color-blanco: #fff;
-  --variant-rojo: #d81732;
+  --variant-rojo: #AF030B;
+  --title-rojo: #F33349;
   --black: #000;
 }
 
@@ -213,7 +214,7 @@ a:focus-visible {
 }
 
 .name-doc {
-  color: var(--variant-rojo);
+  color: var(--title-rojo);
   font-size: 3.43rem;
   width: 540px;
 }
