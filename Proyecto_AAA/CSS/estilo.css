@@ -212,7 +212,7 @@ a:focus-visible {
   padding: 190px 0 0 70px;
 }
 
-.info-doc h3 {
+.name-doc {
   color: var(--variant-rojo);
   font-size: 3.43rem;
   width: 540px;
@@ -220,10 +220,6 @@ a:focus-visible {
 
 .info-doc div {
   font-size: 1.25rem;
-}
-
-.about-sec h2 {
-  display: none;
 }
 
 .carrer-sec {
